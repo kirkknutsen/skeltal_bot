@@ -45,10 +45,6 @@ if (preg_match($woke, $message)) {
   break;
 }
 
-if (preg_match($dead, $message)) {
-  sendDed($chatID, $ded);
-  break;
-}
 
 if (preg_match($somebody, $message)) {
   sendShrek($chatID, $shrek);
@@ -70,10 +66,6 @@ if (preg_match($crumb, $message)) {
   break;
 }
 
-if (preg_match($hill, $message)) {
-  sendhill($chatID, $billy);
-  break;
-}
 
 if (preg_match($trump, $message)) {
   sendtrump($chatID, $trumps);
